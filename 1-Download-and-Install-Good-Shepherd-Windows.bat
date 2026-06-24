@@ -1,9 +1,9 @@
 @echo off
 setlocal EnableExtensions
-title Good Shepherd Windows Installer Download
+title Good Shepherd Windows Installer Download v0.3.1
 
 echo ----------------------------------------
-echo Good Shepherd Windows Installer Download
+echo Good Shepherd Windows Installer Download v0.3.1
 echo ----------------------------------------
 echo.
 echo Downloading and preparing the Good Shepherd Windows installer.
@@ -11,13 +11,13 @@ echo This window will close automatically when the installer folder opens.
 echo.
 
 set "DOWNLOAD_URL=https://github.com/thriveks/good-shepherd-installers/releases/download/v0.3.0-phase-3/GoodShepherd-Windows-Local-Node-Phase3.zip"
-set "WORK_DIR=%USERPROFILE%\Desktop\GoodShepherd-Phase3-Installer"
+set "WORK_DIR=%USERPROFILE%\Desktop\GoodShepherd-Phase3-Installer-v0.3.1-%RANDOM%%RANDOM%"
 set "ZIP_FILE=%TEMP%\GoodShepherd-Windows-Local-Node-Phase3.zip"
 set "LOG_FILE=%USERPROFILE%\Desktop\Good-Shepherd-Download-Log.txt"
 
 (
     echo ----------------------------------------
-    echo Good Shepherd Windows Installer Download
+    echo Good Shepherd Windows Installer Download v0.3.1
     echo Started: %DATE% %TIME%
     echo Download URL: %DOWNLOAD_URL%
     echo Work Folder: %WORK_DIR%
